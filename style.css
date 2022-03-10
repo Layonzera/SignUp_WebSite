@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.content h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5c5c5c;
+    font-weight: 300;
+}
+
+.button, 
+.button2,
+.button3 {
+    width: 272.39px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-radius: 10px;
+    background-color: #3D5A98;
+    margin-top: 30px;
+}
+
+.button p, 
+.button2 p,
+.button3 p{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 29px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button .socialmedia img,
+.button2 .socialmedia img,
+.button3 .socialmedia img{
+    margin-left: 10px;
+    height: 50px;
+}
+
+.button2 {
+    background-color: #03A9F4;
+}
+
+.button3 {
+    background-color: #F4511E;
+}
+
+.button:hover {
+    background-color: #214592;
+}
+
+.button2:hover {
+    background-color: #0086c4;
+}
+
+.button3:hover {
+    background-color: #d1471d;
+}
